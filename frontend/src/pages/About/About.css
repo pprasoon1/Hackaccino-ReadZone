@@ -1,0 +1,23 @@
+.khush {
+  display: flex;
+  flex-direction: row;
+}
+
+.text {
+  width: 800px;
+}
+
+.text h1 {
+  margin-left: 300px;
+}
+
+.text p {
+  margin-left: 25px;
+  font-size: 20px;
+}
+
+.image {
+  width: 500px;
+  border-radius: 8px; /* Adjust the border radius as needed */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}

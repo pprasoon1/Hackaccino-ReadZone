@@ -1,0 +1,56 @@
+.nav {
+  width: 500px;
+  position:sticky;
+  height: 30px;
+  margin-top: -7px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: sans-serif;
+  position: relative; /* Add this to position the button relative to the .nav */
+  margin-top: 10px;
+}
+
+.nav img {
+  width: 100px;
+  height: 100px;
+  margin-top: -10px;
+}
+
+.button-23 {
+  background-color: #ffffff;
+  border: 1px solid #222222;
+  border-radius: 8px;
+  color: #fe0404;
+  cursor: pointer;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 0px;
+  outline: none;
+  margin-left: 1150px;
+  margin-bottom: 50px;
+ 
+ 
+  width: 80px;
+  height: 25px;
+  transition: box-shadow 0.2s, transform 0.1s;
+}
+
+.button-23:focus-visible {
+  box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
+}
+
+.button-23:active {
+  background-color: #f7f7f7;
+  border-color: #000000;
+  transform: scale(0.96);
+}
+
+.button-23:disabled {
+  border-color: #dddddd;
+  color: #dddddd;
+  cursor: not-allowed;
+  opacity: 1;
+}
